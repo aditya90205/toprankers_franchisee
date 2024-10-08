@@ -37,7 +37,7 @@ const FranchiseeSection = () => {
 
       {/* Our Brands Section */}
       <section className="text-center my-8">
-        <h2 className="text-3xl md:text-4xl font-semibold mb-4">Our Brands</h2>
+        <h2 className="text-3xl md:text-4xl font-semibold mb-4">Our Products</h2>
         <div className="flex justify-center">
           {/* Brand Logos Image */}
           <img
@@ -59,14 +59,14 @@ const FranchiseeSection = () => {
           {franchiseInfo.map((info, index) => (
             <div
               key={index}
-              className="bg-orange-50 p-6 rounded-lg text-center"
+              className="bg-blue-50 p-6 rounded-lg text-center"
             >
               <img
                 src={info.icon}
                 alt={`${info.title} Icon`}
                 className="mx-auto mb-4 w-12 h-12"
               />
-              <h3 className="text-xl font-semibold text-orange-600 mb-2">
+              <h3 className="text-xl font-semibold text-green-600 mb-2">
                 {info.title}
               </h3>
               <p className="text-gray-700">{info.description}</p>
@@ -79,7 +79,7 @@ const FranchiseeSection = () => {
      
       <div className="mt-8 flex justify-center">
         <button
-          className="px-6 py-2 bg-orange-500 text-white font-semibold rounded hover:bg-orange-600 transition duration-300"
+          className="px-6 py-2 bg-blue-400 text-white font-semibold rounded hover:bg-blue-600 transition duration-300"
         >
           GET IN TOUCH
         </button>

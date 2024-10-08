@@ -32,14 +32,14 @@ const FAQComponent = () => {
   return (
     <div className="py-12 bg-white">
       <h2 className="text-center text-3xl md:text-4xl font-bold mb-8">
-        Frequently Asked Questions <span className="text-orange-500">(FAQs)</span>
+        Frequently Asked Questions <span className="text-blue-500">(FAQs)</span>
       </h2>
 
       {/* FAQ Grid */}
       <div className="grid grid-cols-1 md:grid-cols-2 gap-6 max-w-6xl mx-auto">
         {faqs.map((faq) => (
           <div key={faq.id} className="p-6 border rounded-lg">
-            <h3 className="text-orange-500 text-xl font-bold mb-2">0{faq.id}</h3>
+            <h3 className="text-green-500 text-xl font-bold mb-2">0{faq.id}</h3>
             <h4 className="text-lg font-semibold mb-4">{faq.question}</h4>
             <p className="text-gray-600 text-sm">{faq.answer}</p>
           </div>
@@ -50,7 +50,7 @@ const FAQComponent = () => {
       <div className="mt-8 flex justify-center">
         <button
           onClick={scrollToTop}
-          className="px-6 py-2 bg-orange-500 text-white font-semibold rounded hover:bg-orange-600 transition duration-300"
+          className="px-6 py-2 bg-blue-400 text-white font-semibold rounded hover:bg-blue-600 transition duration-300"
         >
           BACK TO TOP
         </button>

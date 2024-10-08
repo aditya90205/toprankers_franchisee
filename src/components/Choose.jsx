@@ -16,7 +16,7 @@ const Choose = () => {
       {/* Heading */}
       <h2 className="text-center text-3xl md:text-4xl font-semibold mb-8">
         Why Students/Parents choose{" "}
-        <span className="text-orange-500">Toprankers</span>
+        <span className="text-blue-500">Toprankers</span>
       </h2>
 
       {/* Content Grid */}
@@ -26,7 +26,7 @@ const Choose = () => {
             key={index}
             className="text-center flex flex-col items-center justify-center"
           >
-            <span className="text-3xl md:text-4xl font-medium text-orange-500">
+            <span className="text-3xl md:text-4xl font-medium text-green-500">
               {item.value}
             </span>
             <span className="text-md md:text-lg text-gray-600">
@@ -41,7 +41,7 @@ const Choose = () => {
 
       {/* Button */}
       <div className="mt-8 flex justify-center">
-        <button className="px-6 py-2 bg-orange-500 text-white font-semibold rounded hover:bg-orange-600 transition duration-300">
+        <button className="px-6 py-2  bg-blue-400 text-white font-semibold rounded hover:bg-blue-600 transition duration-300">
           GET IN TOUCH
         </button>
       </div>
