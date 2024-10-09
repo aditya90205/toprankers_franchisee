@@ -1,6 +1,6 @@
 import './App.css';
 import Form from './components/Form';
-import img from './assets/images/img.jpg';
+import img from './assets/images/img.png';
 import logo from './assets/images/logo.png';
 import FranchiseeSection from './components/FranchiseeSection';
 import Choose from './components/Choose';
@@ -13,9 +13,9 @@ function App() {
     <>
       {/* Main content */}
       <div className=''>
-        <img src={logo} alt="logoImg" className='mx-auto w-1/4' />
-        <div className='flex flex-col md:flex-row items-center justify-center'>
-          <img src={img} alt="image" className='w-3/4 md:w-1/2' />
+        <img src={logo} alt="logoImg" className='mx-auto w-1/2 md:w-1/4' />
+        <div className='flex flex-col md:flex-row items-center justify-around'>
+          <img src={img} alt="image" className='w-3/4 md:w-1/2 lg:w-2/5' />
           <Form />
         </div>
       </div>
